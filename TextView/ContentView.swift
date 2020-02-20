@@ -43,6 +43,12 @@ struct ContentView: View {
             .underline()
             .font(.headline)
             
+            Text("8. 쉐도우 텍스트뷰")
+            .font(.title)
+            .bold()
+            .padding()
+            .shadow(color: Color.gray, radius: 3, x: 15, y: 20)
+            
         }
         
         
